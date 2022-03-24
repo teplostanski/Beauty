@@ -52,7 +52,7 @@ body {
     display: block;
     width: 80px;
     height: 80px;
-    background-image: url(/img/logo.svg);
+    background-image: url(../img/logo.svg);
     margin: 0 20px 0 0;
 }
 
@@ -92,7 +92,7 @@ hr {
 
 /* BANNER */
 .banner {
-    background-image: url(/img/bg.png);
+    background-image: url(../img/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -311,19 +311,19 @@ hr {
 }
 
 .social-link-youtube {
-    background-image: url(/img/youtube.svg);
+    background-image: url(../img/youtube.svg);
 }
 
 .social-link-vk {
-    background-image: url(/img/vk.svg);
+    background-image: url(../img/vk.svg);
 }
 
 .social-link-facebook {
-    background-image: url(/img/facebook.svg);
+    background-image: url(../img/facebook.svg);
 }
 
 .social-link-instagram {
-    background-image: url(/img/instagram.svg);
+    background-image: url(../img/instagram.svg);
 }
 
 .footer-bottom {
