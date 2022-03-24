@@ -18,11 +18,11 @@ body {
     padding: 4px 0;
 }
 
-.nav > li {
+.nav li {
     margin: 0 15px;
 }
 
-.nav > li > a {
+.nav li a {
     text-decoration: none;
     color: #333;
 }
@@ -56,17 +56,23 @@ body {
     margin: 0 20px 0 0;
 }
 
-.header-info > span {
+.header-info span {
     font-size: 16px;
 }
 
-.header-info > button {
+.header-info button {
     font-size: 14px;
     border-radius: 20px;
     background-color: transparent;
     border: solid 2px #66C05D;
     padding: 10px 25px;
     margin: 0 0 0 35px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.header-info button:hover {
+    background-color: #66C05D;
 }
 
 .header-bottom {
@@ -84,6 +90,7 @@ hr {
     height: 1px;
 }
 
+/* BANNER */
 .banner {
     background-image: url(/img/bg.png);
     background-repeat: no-repeat;
@@ -106,10 +113,141 @@ hr {
     background-color: transparent;
     border: solid 2px #fff;
     padding: 9px 47px;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #66C05D;
 }
 
 .title {
     font-size: 48px;
     font-weight: 700;
     margin: 0 0 39px 0;
+}
+
+.title-h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* BLOCK GRID */
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-green {
+    background-color: #66C05D;
+    color: #fff;
+    padding: 31px 41px;
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+
+.bg-green-item {
+    flex: 0 0 55%;
+}
+
+.bg-green-item-img {
+    text-align: center;
+    flex: 0 0 31%;
+}
+
+.bg-green h3 {
+    font-size: 18px;
+    font-weight: 700 ;
+    margin: 0 0 20px 0;
+}
+
+.bg-green p {
+    line-height: 1.5;
+    margin: 0 0 24px 0;
+}
+
+.bg-green input {
+    font-size: 14px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 9px 15px;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 225px;
+}
+
+.bg-green .btn {
+    display: block;
+    text-align: center;
+    max-width: 166px;
+    padding: 8px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 19px 30px;
+}
+
+.catalog {
+    padding: 60px 0 0 0;
+}
+
+.grid-item-title {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.grid-item-img {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+.grid-item-left {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin: 80px 0 0 0;
+}
+
+.grid-item-right {
+    grid-column: 3/5;
+    grid-row: 3/4;
+    margin: 80px 0 0 0;
+}
+
+.grid-item-catalog {
+    text-align: center;
+}
+
+.grid-item-catalog .bg-white {
+    padding: 23px 30px 34px 30px;
+}
+
+.thumb {
+    margin: 0 0 14px 0;
+}
+
+.grid-title {
+    line-height: 1.5;
+    margin: 0;
+}
+
+.grid-price {
+    font-size: 21px;
+    font-weight: 500;
+    margin: 14px 0 25px 0;
+    letter-spacing: 1px;
+}
+
+.grid-btn {
+    border-radius: 30px;
+    background-color: #66C05D;
+    border: solid 2px #66C05D;
+    color: #fff;
+    padding: 6px 41px;
+    text-decoration: none;
+    transition: 0.2s ease;
+    cursor: pointer; 
 }
