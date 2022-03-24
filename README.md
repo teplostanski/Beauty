@@ -7,3 +7,5 @@
 - CSS
 - Grid
 - FlexBox
+
+Сылка: https://r0bomurlok.github.io/Beauty/
